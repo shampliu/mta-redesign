@@ -1,0 +1,60 @@
+@import 'reset';
+@import 'config';
+@import 'navbar';
+
+header.trip-header {
+  z-index: 2;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 75px;
+  background: url('../img/jumbotron.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &:before {
+    content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-image: linear-gradient(to bottom right,#114B5F,$color1);
+  	opacity: .6;
+  }
+
+  .trip-header-inner {
+    position: relative;
+    z-index:1000;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 50px;
+  }
+
+}
+
+section.section.itineraries {
+  padding: 80px 0;
+  h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: $color1;
+    margin-bottom: 40px;
+  }
+  ul.list {
+    li {
+      cursor: pointer;
+      height: 200px;
+      width: 100%;
+      background: whitesmoke;
+      margin-bottom: 20px;
+
+      &:hover {
+        background: rgb(224, 224, 224);
+
+      }
+    }
+  }
+
+}

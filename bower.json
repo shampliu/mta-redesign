@@ -1,0 +1,17 @@
+{
+  "name": "MTA Redesign",
+  "authors": [
+    "Chang Liu <shampliu@gmail.com>"
+  ],
+  "description": "For IBM Design Challenge",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
