@@ -1,10 +1,8 @@
-* {
+*, body {
   box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif !important;
 }
-
 $color1: #456990;
-
+$color2: rgba(255, 253, 117, 0.84);
 
 // Reusable Elements
 a {
@@ -15,21 +13,28 @@ form {
   text-align: center;
   margin: 0 auto;
   label {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     text-align: left;
     font-size: 0.7em;
     display: block;
     margin-bottom: 5px;
+    color: $color2;
   }
   input {
+    color: white;
     border: solid 2px $color1;
     background: transparent;
     height: 40px;
     width: calc(100% - 4px);
     margin-bottom: 10px;
     padding-left: 10px;
+
+    &:active, &:focus {
+      border: solid 2px $color2;
+      outline: none;
+    }
   }
 }
 

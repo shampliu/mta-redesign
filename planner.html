@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
-  <link rel="stylesheet" href="css/planner.css">
+  <link href="./bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/planner.css">
 </head>
 <body>
   <nav class="nav scrolled">
@@ -18,6 +18,7 @@
         <a href=""><li>Schedules</li></a>
         <a href=""><li>Fares & Tolls</li></a>
         <a href=""><li>Maps</li></a>
+        <a href=""><li>Info <i class="fa fa-angle-down"></i></li></a>
       </ul>
       <ul class="inline search">
         <li>
@@ -26,19 +27,19 @@
             <button class="icon"><i class="fa fa-search"></i></button>
           </div>
         </li>
-        <li>English</li>
+        <li class="language" style="vertical-align: top;">English <i class="fa fa-angle-down"></i></li>
       </ul>
     </div>
   </nav>
   <header class="trip-header">
     <div class="trip-header-inner">
-      <span>< </span>
-      From
-      <span>Grand Central Station</span>
-      To
-      <span>Poughkeepsie Station</span>
-      <span>Date</span>
-      <span>Options</span>
+      <span class="edit"><i class="fa fa-angle-left"></i> &nbsp;Back</span>
+      <span>From</span>
+      <span class="edit">Grand Central Station</span>
+      <span>To</span>
+      <span class="edit">Poughkeepsie Station</span>
+      <span>On</span>
+      <span class="edit">February 24, 12:00 PM</span>
     </div>
 
   </header>
@@ -50,24 +51,164 @@
       <h1>Itineraries</h1>
       <ul class="list">
         <li>
-          trip 1
+          <div class="list-wrapper">
+            <div class="price-container">
+              <div class="price">
+                $17.75<br/>
+                <span>$11.75 Reduced</span>
+              </div>
+            </div>
+            <div class="depart">
+              <div class="type">Depart</div>
+              <div class="time">12:00PM</div>
+              <div class="station">Grand Central Station</div>
+            </div>
+            <div class="arrive">
+              <div class="type">Arrive</div>
+              <div class="time">1:48PM</div>
+              <div class="station">Poughkeepsie Station</div>
+            </div>
+            <div class="info-container">
+              <div class="duration">
+                1hr 48min
+              </div>
+              <div class="path">
+                <span>Metro North</span>
+
+              </div>
+            </div>
+            <div class="arrow"><i class="fa fa-angle-down"></i></div>
+
+          </div>
+          <div class="instructions">
+            <p>1. From <span class="station">Grand Central Terminal</span></p>
+            <p>2. Take the <span class="station">Poughkeepsie Station</span> bound <span class="train">Metro North</span> train at <b>12:00PM</b></p>
+            <p>3. Get off at <span class="station">Poughkeepsie Station</span> at <b>1:48PM</b></p>
+          </div>
+
+
         </li>
         <li>
-          trip 1
+          <div class="list-wrapper">
+            <div class="price-container">
+              <div class="price">
+                $17.75<br/>
+                <span>$11.75 Reduced</span>
+              </div>
+            </div>
+            <div class="depart">
+              <div class="type">Depart</div>
+              <div class="time">12:00PM</div>
+              <div class="station">Grand Central Station</div>
+            </div>
+            <div class="arrive">
+              <div class="type">Arrive</div>
+              <div class="time">1:48PM</div>
+              <div class="station">Poughkeepsie Station</div>
+            </div>
+            <div class="info-container">
+              <div class="duration">
+                1hr 48min
+              </div>
+              <div class="path">
+                <span>Metro North</span>
+
+              </div>
+            </div>
+            <div class="arrow"><i class="fa fa-angle-down"></i></div>
+
+          </div>
+          <div class="instructions">
+            <p>1. From <span class="station">Grand Central Terminal</span></p>
+            <p>2. Take the <span class="station">Poughkeepsie Station</span> bound <span class="train">Metro North</span> train at <b>12:00PM</b></p>
+            <p>3. Get off at <span class="station">Poughkeepsie Station</span> at <b>1:48PM</b></p>
+          </div>
+
+
         </li>
         <li>
-          trip 1
+          <div class="list-wrapper">
+            <div class="price-container">
+              <div class="price">
+                $17.75<br/>
+                <span>$11.75 Reduced</span>
+              </div>
+            </div>
+            <div class="depart">
+              <div class="type">Depart</div>
+              <div class="time">12:00PM</div>
+              <div class="station">Grand Central Station</div>
+            </div>
+            <div class="arrive">
+              <div class="type">Arrive</div>
+              <div class="time">1:48PM</div>
+              <div class="station">Poughkeepsie Station</div>
+            </div>
+            <div class="info-container">
+              <div class="duration">
+                1hr 48min
+              </div>
+              <div class="path">
+                <span>Metro North</span>
+
+              </div>
+            </div>
+            <div class="arrow"><i class="fa fa-angle-down"></i></div>
+
+          </div>
+          <div class="instructions">
+            <p>1. From <span class="station">Grand Central Terminal</span></p>
+            <p>2. Take the <span class="station">Poughkeepsie Station</span> bound <span class="train">Metro North</span> train at <b>12:00PM</b></p>
+            <p>3. Get off at <span class="station">Poughkeepsie Station</span> at <b>1:48PM</b></p>
+          </div>
+
+
         </li>
         <li>
-          trip 1
+          <div class="list-wrapper">
+            <div class="price-container">
+              <div class="price">
+                $17.75<br/>
+                <span>$11.75 Reduced</span>
+              </div>
+            </div>
+            <div class="depart">
+              <div class="type">Depart</div>
+              <div class="time">12:00PM</div>
+              <div class="station">Grand Central Station</div>
+            </div>
+            <div class="arrive">
+              <div class="type">Arrive</div>
+              <div class="time">1:48PM</div>
+              <div class="station">Poughkeepsie Station</div>
+            </div>
+            <div class="info-container">
+              <div class="duration">
+                1hr 48min
+              </div>
+              <div class="path">
+                <span>Metro North</span>
+
+              </div>
+            </div>
+            <div class="arrow"><i class="fa fa-angle-down"></i></div>
+
+          </div>
+          <div class="instructions">
+            <p>1. From <span class="station">Grand Central Terminal</span></p>
+            <p>2. Take the <span class="station">Poughkeepsie Station</span> bound <span class="train">Metro North</span> train at <b>12:00PM</b></p>
+            <p>3. Get off at <span class="station">Poughkeepsie Station</span> at <b>1:48PM</b></p>
+          </div>
+
+
         </li>
-        <li>
-          trip 1
-        </li>
+
+
       </ul>
     </div>
   </section>
-  </div>
   <footer></footer>
+  <script src="./js/planner.js"></script>
+
 </body>
 </html>

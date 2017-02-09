@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
-  <link rel="stylesheet" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
   <nav class="nav">
@@ -18,6 +18,7 @@
         <a href=""><li>Schedules</li></a>
         <a href=""><li>Fares & Tolls</li></a>
         <a href=""><li>Maps</li></a>
+        <a href=""><li>Info <i class="fa fa-angle-down"></i></li></a>
       </ul>
       <ul class="inline search">
         <li>
@@ -26,7 +27,7 @@
             <button class="icon"><i class="fa fa-search"></i></button>
           </div>
         </li>
-        <li style="vertical-align: top;">English</li>
+        <li class="language" style="vertical-align: top;">English <i class="fa fa-angle-down"></i></li>
       </ul>
     </div>
 
@@ -47,7 +48,7 @@
           </div>
           <div class="input-group">
             <label for="">Depart</label>
-            <input type="text" name="to" id="to"><br>
+            <input type="text" name="to" id="to" placeholder="e.g. February 24, 5:00PM"><br>
           </div>
           <div class="input-group">
             <label for="">Options</label>
@@ -62,7 +63,17 @@
           <a href="planner.html" id="button">Find Trip</a>
         </form>
       </div>
-      <div id="getting-there"></div>
+      <div id="getting-there">
+        <ul class="inline theres">
+          <li>Getting There:</li>
+          <li class="there">Subway</li>
+          <li class="there">New York City Bus</li>
+          <li class="there">Staten Island Railway</li>
+          <li class="there">Long Island Railroad</li>
+          <li class="there">Metro-North Railroad</li>
+          <li class="there">Bridges & Tunnels</li>
+        </ul>
+      </div>
     </div>
   </header>
   <section class="section" id="service-status"></section>
