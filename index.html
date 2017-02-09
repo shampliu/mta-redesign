@@ -8,7 +8,10 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <nav class="nav">
+  <div class="loader">
+    <img src="img/loader.gif" alt="">
+  </div>
+  <nav class="nav anime">
     <div class="nav-inner">
       <a class="logo-wrapper" href="index.html">
         <img src="./img/logo.png" class="logo" alt="">
@@ -33,9 +36,9 @@
 
 
   </nav>
-  <header class="jumbotron">
+  <header class="jumbotron anime">
     <div class="wrapper">
-      <div class="planner">
+      <div class="planner anime">
         <h1>Plan Your Trip</h1>
         <form action="">
           <div class="input-group">
@@ -65,20 +68,19 @@
       </div>
       <div id="getting-there">
         <ul class="inline theres">
-          <li>Getting There:</li>
-          <li class="there">Subway</li>
-          <li class="there">New York City Bus</li>
-          <li class="there">Staten Island Railway</li>
-          <li class="there">Long Island Railroad</li>
-          <li class="there">Metro-North Railroad</li>
-          <li class="there">Bridges & Tunnels</li>
+          <li class="anime">Getting There:</li>
+          <li class="there anime">Subway</li>
+          <li class="there anime">New York City Bus</li>
+          <li class="there anime">Staten Island Railway</li>
+          <li class="there anime">Long Island Railroad</li>
+          <li class="there anime">Metro-North Railroad</li>
+          <li class="there anime">Bridges & Tunnels</li>
         </ul>
       </div>
     </div>
   </header>
-  <section class="section" id="service-status"></section>
-  </div>
-  <footer></footer>
+  <script src="./bower_components/animejs/anime.min.js"></script>
   <script src="js/index.js"></script>
+
 </body>
 </html>
